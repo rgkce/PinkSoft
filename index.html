@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- Meta Title -->
+    <title>
+      PinkSoft | Web, Mobil, UI/UX ve Sosyal Medya | Yaratıcı Dijital Ajans
+    </title>
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="PinkSoft, web geliştirme, mobil uygulama, UI/UX tasarımı, sosyal medya danışmanlığı ve teknik destek hizmetleri sunan yaratıcı dijital ajanstır."
+    />
+    <!-- Meta Author -->
+    <meta name="author" content="PinkSoft" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Federo&family=Barlow:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+      <div id="preloader-status">
+        <div class="preloader-position loader"><span></span></div>
+      </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+          <a class="logo" href="index.html">
+            <img
+              src="img/logo.png"
+              class="logo-img"
+              alt=""
+              style="width: 350px; height: auto"
+            />
+          </a>
+        </div>
+        <!-- Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" data-scroll-nav="0"
+                >ANA SAYFA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="1">HAKKIMIZDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="2">HİZMETLERİMİZ</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="3">İŞLERİMİZ</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="4">EKİBİMİZ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-scroll-nav="7">İLETİŞİM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Slider -->
+    <header id="home" data-scroll-index="0" class="header slider-fade">
+      <div class="owl-carousel owl-theme">
+        <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+        <div
+          class="item bg-img"
+          data-overlay-dark="5"
+          data-background="img/slider/2.jpg"
+        >
+          <div class="v-middle caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-md-12 mt-30">
+                  <h6>DÜNYA STANDARTLARINDA İŞLER</h6>
+                  <h1>PINKSOFT</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item bg-img"
+          data-overlay-dark="5"
+          data-background="img/slider/1.jpg"
+        >
+          <div class="v-middle caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-md-12 mt-30">
+                  <h6>DÜNYA STANDARTLARINDA İŞLER</h6>
+                  <h1>PINKSOFT OLARAK HİZMETLERİMİZ</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item bg-img"
+          data-overlay-dark="5"
+          data-background="img/slider/3.jpg"
+        >
+          <div class="v-middle caption">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-7 col-md-12 mt-30">
+                  <h6>DÜNYA STANDARTLARINDA İŞLER</h6>
+                  <h1>İŞİNİZİ BÜYÜTÜN</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About -->
+    <section id="about" data-scroll-index="1" class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="content">
+              <div class="section-subtitle">Hakkımızda</div>
+              <div class="section-title">
+                DİJİTALDE <span>Fark Yaratan </span> Çözümler
+              </div>
+              <p>
+                Yaratıcı çözümler üretmeyi ve dijital dünyada güçlü izler
+                bırakmayı hedefleyen dinamik bir ekibiz. Web ve mobil uygulama
+                geliştirme, UI/UX tasarımı, sosyal medya danışmanlığı, kurumsal
+                kaynak geliştirme ve teknik danışmanlık gibi alanlarda,
+                kullanıcı odaklı ve modern çözümler sunuyoruz. Farklı
+                uzmanlıklara sahip geliştirici, tasarımcı ve proje
+                yöneticilerinden oluşan ekibimizle; her projeye özgü yaklaşıyor,
+                işlevsellik ve estetik arasında denge kurarak markalara değer
+                katıyoruz. Teknolojiye olan tutkumuz ve disiplinli çalışma
+                anlayışımız sayesinde, sadece iş teslim etmiyor; sürdürülebilir,
+                etkili ve yaratıcı dijital deneyimler inşa ediyoruz.
+              </p>
+              <!-- <h5 class="mb-30">PinkSoft' dan<br> fazlasıyız.</h5> -->
+            </div>
+          </div>
+          <div class="col-lg-5 offset-lg-1 col-md-12 mt-30">
+            <div class="item">
+              <img src="img/about-v1.jpg" class="img-fluid" alt="" />
+              <div class="bottom-fade"></div>
+              <div class="icon">
+                <a href="javascript:void(0);" class="vid arrow"
+                  ><img src="img/favicon.png" width="30"
+                /></a>
+              </div>
+              <div class="title">
+                <h4></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Services -->
+    <section
+      id="services"
+      data-scroll-index="2"
+      class="services section-padding"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 text-center mb-20">
+            <div class="section-subtitle">Neler Yapıyoruz</div>
+            <div class="section-title">HİZMETLERİMİZ</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="text">
+                  <h5>MOBİL GELİŞTİRME</h5>
+                  <p>
+                    Kullanıcı dostu, hızlı ve modern mobil uygulamalar
+                    geliştiriyoruz. Android ve iOS platformları için
+                    tasarladığımız çözümlerle, fikirlerinizi etkili ve
+                    erişilebilir hale getiriyor; mobil dünyada güçlü bir yer
+                    edinmenizi sağlıyoruz.
+                  </p>
+                </div>
+                <div class="icon">
+                  <a href="javascript:void(0);" class="arrow">
+                    <div class="icon-w">
+                      <i class="ti-mobile icon-show"></i
+                      ><i class="ti-arrow-top-right icon-hidden"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h5>WEB GELİŞTİRME</h5>
+                  <p>
+                    Modern, hızlı ve mobil uyumlu web siteleri geliştiriyoruz.
+                    Markanıza özel çözümlerle, dijital dünyada fark edilmenizi
+                    ve güçlü bir çevrimiçi varlık oluşturmanızı sağlıyoruz.
+                  </p>
+                </div>
+                <div class="icon">
+                  <a href="javascript:void(0);" class="arrow">
+                    <div class="icon-w">
+                      <i class="ti-world icon-show"></i>
+                      <i class="ti-arrow-top-right icon-hidden"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h5>UI/UX TASARIMI</h5>
+                  <p>
+                    Kullanıcı odaklı, estetik ve işlevsel arayüzler
+                    tasarlıyoruz. Her detayda deneyimi ön planda tutarak,
+                    markanızla güçlü bir etkileşim kuran dijital tasarımlar
+                    oluşturuyoruz.
+                  </p>
+                </div>
+                <div class="icon">
+                  <a href="javascript:void(0);" class="arrow">
+                    <div class="icon-w">
+                      <i class="ti-brush icon-show"></i>
+                      <i class="ti-arrow-top-right icon-hidden"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h5>SOSYAL MEDYA DANIŞMANLIĞI</h5>
+                  <p>
+                    Markanızın dijital kimliğini güçlendiriyor, hedef kitlenize
+                    en doğru şekilde ulaşmanızı sağlıyoruz. Stratejik içerik
+                    planlaması ve platformlara özel çözümlerle sosyal medyada
+                    fark yaratıyoruz.
+                  </p>
+                </div>
+                <div class="icon">
+                  <a href="javascript:void(0);" class="arrow">
+                    <div class="icon-w">
+                      <i class="et-chat icon-show"></i>
+                      <i class="ti-arrow-top-right icon-hidden"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h5>TEKNİK DANIŞMANLIK HİZMETLERİ</h5>
+                  <p>
+                    Projelerinizin her aşamasında yanınızdayız. Doğru teknoloji
+                    seçiminden performans iyileştirmelerine kadar,
+                    sürdürülebilir ve güvenilir çözümlerle teknik süreçlerinizi
+                    destekliyoruz.
+                  </p>
+                </div>
+                <div class="icon">
+                  <a href="javascript:void(0);" class="arrow">
+                    <div class="icon-w">
+                      <i class="ti-settings icon-show"></i>
+                      <i class="ti-arrow-top-right icon-hidden"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h5>KURUMSAL KAYNAK GELİŞTİRME</h5>
+                  <p>
+                    Kurumsal yapınızı analiz ediyor, süreçlerinizi optimize
+                    edecek dijital çözümler geliştiriyoruz. Verimliliği artıran,
+                    sürdürülebilir ve ihtiyaca özel sistemlerle işletmenizi
+                    ileri taşıyoruz.
+                  </p>
+                </div>
+                <div class="icon">
+                  <a href="javascript:void(0);" class="arrow">
+                    <div class="icon-w">
+                      <i class="ti-user icon-show"></i>
+                      <i class="ti-arrow-top-right icon-hidden"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Portfolio -->
+    <!-- <div id="portfolio" data-scroll-index="3" class="portfolio-home section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-20">
+                    <div class="section-subtitle">PROJELERİMİZ</div>
+                    <div class="section-title">İŞLERİMİZ</div>
+                </div>
+            </div>
+            <div class="portfolio-home-carousel owl-theme owl-carousel">
+                <div class="item">
+                    <div class="img"> <img src="img/works/01.jpg" alt=""> </div>
+                    <div class="con opacity-1">
+                        <div class="title">
+                            <h6><span class="et-layers"></span> TASARIM</h6>
+                            <h3>UI/UX TASARIMI</h3>
+                        </div>
+                        <div class="icon">
+                            <a href="portfolio-details.html" class="arrow"> <i class="ti-arrow-top-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/works/02.jpg" alt=""> </div>
+                    <div class="con opacity-1">
+                        <div class="title">
+                            <h6><span class="et-layers"></span> TASARIM</h6>
+                            <h3>MOBİL UYGULAMA TASARIMI</h3>
+                        </div>
+                        <div class="icon">
+                            <a href="portfolio-details2.html" class="arrow"> <i class="ti-arrow-top-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/works/03.jpg" alt=""> </div>
+                    <div class="con opacity-1">
+                        <div class="title">
+                            <h6><span class="et-layers"></span> MARKALAŞMA</h6>
+                            <h3>SOSYAL MEDYA DANIŞMANLIĞI</h3>
+                        </div>
+                        <div class="icon">
+                            <a href="portfolio-details3.html" class="arrow"> <i class="ti-arrow-top-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/works/04.jpg" alt=""> </div>
+                    <div class="con opacity-1">
+                        <div class="title">
+                            <h6><span class="et-layers"></span> MARKALAŞMA</h6>
+                            <h3>TEKNİK DANIŞMANLIK</h3>
+                        </div>
+                        <div class="icon">
+                            <a href="portfolio-details.html" class="arrow"> <i class="ti-arrow-top-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/works/05.jpg" alt=""> </div>
+                    <div class="con opacity-1">
+                        <div class="title">
+                            <h6><span class="et-layers"></span> WEB TASARIM</h6>
+                            <h3>WEB SİTE TASARIMI</h3>
+                        </div>
+                        <div class="icon">
+                            <a href="portfolio-details.html" class="arrow"> <i class="ti-arrow-top-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/works/06.jpg" alt=""> </div>
+                    <div class="con opacity-1">
+                        <div class="title">
+                            <h6><span class="et-layers"></span> TASARIM</h6>
+                            <h3>WEB TASARIM</h3>
+                        </div>
+                        <div class="icon">
+                            <a href="portfolio-details.html" class="arrow"> <i class="ti-arrow-top-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Team -->
+    <section id="team" data-scroll-index="4" class="team section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-30">
+            <div class="section-subtitle">UZMANLARIMIZ</div>
+            <div class="section-title">EKİBİMİZ</div>
+            <p>
+              Alanında uzman 4 kişilik dinamik bir ekibiz. Web geliştirme, mobil
+              uygulama, UI/UX tasarımı, sosyal medya danışmanlığı, kurumsal
+              kaynak geliştirme ve teknik destek konularında her biri kendi
+              alanında deneyimli ekip üyelerimizle projelerinizi uçtan uca
+              şekillendiriyoruz. Her proje için iş birliğine dayalı, çözüm
+              odaklı ve kaliteli bir üretim süreci sunuyoruz.
+            </p>
+          </div>
+          <div class="col-lg-8 col-md-12">
+            <div class="team-container">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="wrapper">
+                    <img src="img/team/x.jpg" class="img-fluid" alt="" />
+                    <div class="icon">
+                      <a href="javascript:void(0);" class="arrow"
+                        ><span class="ti-info"></span
+                      ></a>
+                    </div>
+                    <div class="text">
+                      <h4 class="name">R.Gökçe</h4>
+                      <h6 class="position">Yönetici - Mobil Geliştirme</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper">
+                    <img src="img/team/y.jpg" class="img-fluid" alt="" />
+                    <div class="icon">
+                      <a href="javascript:void(0);" class="arrow"
+                        ><span class="ti-info"></span
+                      ></a>
+                    </div>
+                    <div class="text">
+                      <h4 class="name">Y.Coşgun</h4>
+                      <h6 class="position">
+                        Teknik Danışman - Kaynak Geliştirme
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper">
+                    <img src="img/team/z.jpg" class="img-fluid" alt="" />
+                    <div class="icon">
+                      <a href="javascript:void(0);" class="arrow"
+                        ><span class="ti-info"></span
+                      ></a>
+                    </div>
+                    <div class="text">
+                      <h4 class="name">İ.Çelik</h4>
+                      <h6 class="position">
+                        Tasarım - Sosyal Medya Danışmanlığı
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="wrapper">
+                    <img src="img/team/v.jpg" class="img-fluid" alt="" />
+                    <div class="icon">
+                      <a href="javascript:void(0);" class="arrow"
+                        ><span class="ti-info"></span
+                      ></a>
+                    </div>
+                    <div class="text">
+                      <h4 class="name">E.Çelik</h4>
+                      <h6 class="position">Web Geliştirme</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video -->
+    <div
+      class="video-wrapper section-padding bg-img"
+      data-overlay-dark="5"
+      data-background="img/slider/1.jpg"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-12 text-center rotatex">
+            <a
+              href="javascript:void(0);"
+              data-lity="video"
+              class="rotate-box vid"
+            >
+              <div class="rotate-circle rotate-text">
+                <svg class="textcircle" viewBox="0 0 500 500">
+                  <defs>
+                    <path
+                      id="textcircle"
+                      d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                    ></path>
+                  </defs>
+                  <text>
+                    <textPath xlink:href="#textcircle" textLength="900">
+                      PinkSoft - Dijital Ajans -
+                    </textPath>
+                  </text>
+                </svg>
+              </div>
+              <span class="icon">
+                <img src="img/favicon.png" width="50" />
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- video text -->
+      <div class="video-text"></div>
+    </div>
+    <!-- Testimonials -->
+    <div
+      id="testimonials"
+      data-scroll-index="5"
+      class="testimonials section-padding"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mb-20">
+            <div class="section-subtitle">GÖRÜŞLER</div>
+            <div class="section-title">MÜŞTERİLERİMİZ NE DİYOR?</div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="text">
+                  <p>
+                    Web sitemiz tam istediğimiz gibi, hızlı ve kullanıcı dostu
+                    oldu. Ekibin profesyonelliği ve ilgisi sayesinde süreç çok
+                    rahat ilerledi. Kesinlikle tavsiye ederim!
+                  </p>
+                </div>
+                <div class="info mt-30">
+                  <div class="img-curv">
+                    <div class="img">
+                      <img src="img/team/usericon.png" alt="" />
+                    </div>
+                    <div class="shap-left-top">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="shap-right-bottom">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-30">
+                    <h6>N.AK</h6>
+                    <p>Müşteri</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="text">
+                  <p>
+                    Projelerimizde karşılaştığımız teknik zorlukları hızlıca
+                    çözen, doğru yönlendirmelerle işimizi kolaylaştıran harika
+                    bir danışmanlık hizmeti aldık. Destekleri çok değerliydi.
+                  </p>
+                </div>
+                <div class="info mt-30">
+                  <div class="img-curv">
+                    <div class="img">
+                      <img src="img/team/usericon.png" alt="" />
+                    </div>
+                    <div class="shap-left-top">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="shap-right-bottom">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-30">
+                    <h6>S.BİLGAY</h6>
+                    <p>Müşteri</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="text">
+                  <p>
+                    Mobil uygulamamız beklentilerimizin çok üzerinde, kullanımı
+                    kolay ve sorunsuz çalışıyor. Ekip her aşamada profesyonel
+                    destek sundu, çok memnun kaldık!
+                  </p>
+                </div>
+                <div class="info mt-30">
+                  <div class="img-curv">
+                    <div class="img">
+                      <img src="img/team/usericon.png" alt="" />
+                    </div>
+                    <div class="shap-left-top">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="shap-right-bottom">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-30">
+                    <h6>E.ATEŞ</h6>
+                    <p>Müşteri</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="text">
+                  <p>
+                    Kullanıcı deneyimimizi ve görsel tasarımımızı tamamen
+                    yeniledik. Ekip, beklentilerimizi anlayıp harika, sezgisel
+                    tasarımlar ortaya koydu. İşbirliği çok keyifliydi!
+                  </p>
+                </div>
+                <div class="info mt-30">
+                  <div class="img-curv">
+                    <div class="img">
+                      <img src="img/team/usericon.png" alt="" />
+                    </div>
+                    <div class="shap-left-top">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="shap-right-bottom">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-30">
+                    <h6>C.TATLIDİL</h6>
+                    <p>Müşteri</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="text">
+                  <p>
+                    Sosyal medya stratejimizde büyük bir dönüşüm yaşadık.
+                    Profesyonel yaklaşım ve yaratıcı içeriklerle takipçi sayımız
+                    ve etkileşimimiz hızlıca arttı. İş birliği çok verimliydi
+                  </p>
+                </div>
+                <div class="info mt-30">
+                  <div class="img-curv">
+                    <div class="img">
+                      <img src="img/team/usericon.png" alt="" />
+                    </div>
+                    <div class="shap-left-top">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="shap-right-bottom">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-30">
+                    <h6>İ.KAYMAZ</h6>
+                    <p>Müşteri</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <i class="fa-solid fa-quote-left"></i>
+                <div class="text">
+                  <p>
+                    İş süreçlerimizi daha verimli ve organize hale getiren
+                    harika bir çözüm süreci yaşadık. İhtiyacımıza özel
+                    geliştirilen sistemle hem zamandan kazandık hem ekibimizin
+                    iş yükü azaldı. Profesyonel ve çözüm odaklı bir yaklaşımdı.
+                  </p>
+                </div>
+                <div class="info mt-30">
+                  <div class="img-curv">
+                    <div class="img">
+                      <img src="img/team/usericon.png" alt="" />
+                    </div>
+                    <div class="shap-left-top">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="shap-right-bottom">
+                      <svg
+                        viewBox="0 0 11 11"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-11 h-11"
+                      >
+                        <path
+                          d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                          fill="#fff"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-30">
+                    <h6>İ.KEFELİ</h6>
+                    <p>Müşteri</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- divider line -->
+    <div class="line-vr-section"></div>
+    <!-- Lets Talk -->
+    <div id="contact" data-scroll-index="7" class="lets-talk">
+      <div
+        class="background bg-img bg-fixed section-padding"
+        data-overlay-dark="5"
+        data-background="img/slider/4.jpg"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="section-subtitle">HADİ KONUŞALIM!</div>
+              <div class="section-title">AKLINDA BİR PROJE Mİ VAR?</div>
+              <div class="wrap">
+                <div class="social">
+                  <a href="#" class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="dv"></div>
+                <a href="mailto:info@pinksoft.tr">info@pinksoft.tr</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <!-- top -->
+        <div class="top">
+          <div class="row">
+            <div class="col-md-8 mb-30">
+              <div class="item">
+                <div class="logo">
+                  <img
+                    src="img/logo.png"
+                    alt=""
+                    style="width: 400px; height: auto"
+                  />
+                </div>
+                <p>
+                  PinkSoft, dijital çözümleri sadece üretmekle kalmayıp onları
+                  markanıza özel bir deneyime dönüştüren yaratıcı bir teknoloji
+                  ajansıdır. Web ve mobil uygulama geliştirme, kullanıcı odaklı
+                  arayüz tasarımları, sosyal medya danışmanlığı, teknik destek
+                  ve kurumsal kaynak geliştirme alanlarında uçtan uca hizmet
+                  sunar. Her projeye stratejik bakış açısıyla yaklaşır, hem
+                  estetik hem de işlevsel çözümlerle dijital varlığınızı
+                  güçlendirir. Geleceği inşa etmek isteyen markalar için
+                  güvenilir, yenilikçi ve sürdürülebilir bir dijital ortak
+                  arıyorsanız, doğru yerdesiniz.
+                </p>
+                <div class="social-icons">
+                  <ul class="list-inline">
+                    <li>
+                      <a href="javascript:void(0);"
+                        ><i class="fa-brands fa-instagram"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-30">
+              <div class="item">
+                <h3>Abone Olun</h3>
+                <p>
+                  Hizmetlerimiz hakkında bilgilendirilmek ister misiniz? Sadece
+                  kaydolun ve size e-posta ile bir bildirim gönderelim.
+                </p>
+                <div class="newsletter">
+                  <form action="#">
+                    <input type="email" placeholder="E-mail Adresi" required />
+                    <button type="submit">
+                      <i class="ti-arrow-top-right"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="mb-0">&copy; 2025 PinkSoft</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
